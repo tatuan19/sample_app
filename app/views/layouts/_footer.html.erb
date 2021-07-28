@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>  
+    <%= t "footer.subtitle1" %>
+    <%= link_to t("footer.tutorial"), Settings.rails_home_link %>
+    <%= t "footer.by" %>
+    <%= link_to t("footer.author"), Settings.rails_author_link %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.title"), "#" %></li>
+      <li><%= link_to t("static_pages.contact.title"), "#" %></li>
+      <li><%= link_to t("static_pages.news.title"), Settings.rails_news_link %></li>
+    </ul>
+  </nav>
+</footer>
