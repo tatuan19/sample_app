@@ -1,6 +1,10 @@
 class User < ApplicationRecord
   before_save :downcase_email
 
+  USER_ATTRS = [
+    :name, :email, :password, :password_confirmation
+  ].freeze
+
   validates :name, presence: true, length: {maximum: Settings.name.length.max}
   validates :email, presence: true,
             length: {maximum: Settings.email.length.max},
@@ -13,6 +17,6 @@ class User < ApplicationRecord
 
   private
   def downcase_email
-    self.mail.downcase!
+    email.downcase!
   end
 end
