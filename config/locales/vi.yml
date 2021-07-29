@@ -1,0 +1,31 @@
+vi:
+  base_title: "Ruby on Rails Tutorial Sample App"
+  app_name: "Sample App"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      subtitle1: "Chào mừng đến với Sample App"
+      subtitle2: "Đây là trang chủ của ứng dụng mẫu"
+      other_text: ""
+      tutorial: "Ruby on Rails Tutorial"
+      sign_up: "Đăng ký ngay!"
+    help:
+      title: "Trợ giúp"
+      subtitle: "Nhận trợ giúp về Ruby on Rails Tutorial tại trang"
+      help_page: "Rails Tutorial."
+      info: "Để nhận trợ giúp về ứng dụng mẫu này, hãy tham khảo sách"
+      book: "Ruby on Rails Tutorial."
+      other_text: ""
+    login:
+      title: "Đăng nhập"
+    about:
+      title: "Về chúng tôi"
+    contact:
+      title: "Liên hệ"
+    news:
+      title: "Tin tức"
+  footer:
+    subtitle1: ""
+    tutorial: "Ruby on Rails Tutorial"
+    author: "Michael Hartl"
+    by: "được viết bởi"
