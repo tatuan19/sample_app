@@ -3,3 +3,13 @@ rails_help_link: "https://www.railstutorial.org/help"
 rails_book_link: "https://www.railstutorial.org/book"
 rails_author_link: "https://www.michaelhartl.com/"
 rails_news_link: https://news.railstutorial.org/"
+name:
+  length:
+    max: 50
+email:
+  length:
+    max: 50
+  valid_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
+password:
+  length:
+    min: 6
