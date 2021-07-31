@@ -1,6 +1,9 @@
 vi:
   base_title: "Ruby on Rails Tutorial Sample App"
   app_name: "Sample App"
+  welcome_to_the_sample_app!: "Chào mừng đến với Sample App"
+  not_found: "Không tìm thấy người dùng!"
+  signup_fail: "Đăng ký không thành công. Vui lòng thử lại!"
   static_pages:
     home:
       title: "Trang chủ"
@@ -29,3 +32,19 @@ vi:
     tutorial: "Ruby on Rails Tutorial"
     author: "Michael Hartl"
     by: "được viết bởi"
+  users:
+    new:
+      title: "Đăng ký"
+      subtitle: "Trang đăng ký cho người dùng mới."
+      create: "Tạo tài khoản"
+  shared:
+    error_messages:
+      info: "Form đăng ký gặp"
+      error: "lỗi"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Mật khẩu xác nhận"

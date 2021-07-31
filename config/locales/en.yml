@@ -1,6 +1,9 @@
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
   app_name: "Sample App"
+  welcome_to_the_sample_app!: "Welcome to the Sample App"
+  not_found: "User not found!"
+  signup_fail: "Sign up failed. Please try again!"
   static_pages:
     home:
       title: "Home"
@@ -29,3 +32,19 @@ en:
     tutorial: "Ruby on Rails Tutorial"
     author: "Michael Hartl"
     by: "by"
+  users:
+    new:
+      title: "Sign up"
+      subtitle: "Sign up page for new users."
+      create: "Create my account"
+  shared:
+    error_messages:
+      info: "The form contains"
+      error: "error"
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirm password"
