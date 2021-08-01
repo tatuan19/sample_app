@@ -2,8 +2,22 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   app_name: "Sample App"
   welcome_to_the_sample_app!: "Welcome to the Sample App"
-  not_found: "User not found!"
-  signup_fail: "Sign up failed. Please try again!"
+  error:
+    not_found: "User not found!"
+    signup_fail: "Sign up failed. Please try again!"
+    login_fail: "Invalid email/password combination"
+  layouts:
+    header:
+      users: "Users"
+      profile: "Profile"
+      setting: "Setting"
+      logout: "Log out"
+      account: "Account"
+    footer:
+      subtitle1: "The"
+      tutorial: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+      by: "by"
   static_pages:
     home:
       title: "Home"
@@ -27,11 +41,11 @@ en:
       title: "Contact"
     news:
       title: "News"
-  footer:
-    subtitle1: "The"
-    tutorial: "Ruby on Rails Tutorial"
-    author: "Michael Hartl"
-    by: "by"
+  sessions:
+    new:
+      new_user: "New User?"
+      login: "Log in"
+      sign_up: "Sign up now!"
   users:
     new:
       title: "Sign up"
@@ -48,3 +62,8 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirm password"
+  helpers:
+    label:
+      session:
+        email: "Email"
+        password: "Password"
