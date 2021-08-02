@@ -2,8 +2,22 @@ vi:
   base_title: "Ruby on Rails Tutorial Sample App"
   app_name: "Sample App"
   welcome_to_the_sample_app!: "Chào mừng đến với Sample App"
-  not_found: "Không tìm thấy người dùng!"
-  signup_fail: "Đăng ký không thành công. Vui lòng thử lại!"
+  error:
+    not_found: "Không tìm thấy người dùng!"
+    signup_fail: "Đăng ký không thành công. Vui lòng thử lại!"
+    login_fail: "Email hoặc mật khẩu không đúng!"
+  layouts:
+    header:
+      users: "Người dùng"
+      profile: "Thông tin"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
+      account: "Tài khoản"
+    footer:
+      subtitle1: ""
+      tutorial: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+      by: "được viết bởi"
   static_pages:
     home:
       title: "Trang chủ"
@@ -27,11 +41,11 @@ vi:
       title: "Liên hệ"
     news:
       title: "Tin tức"
-  footer:
-    subtitle1: ""
-    tutorial: "Ruby on Rails Tutorial"
-    author: "Michael Hartl"
-    by: "được viết bởi"
+  sessions:
+    new:
+      new_user: "Người dùng mới?"
+      login: "Đăng nhập"
+      sign_up: "Đăng ký ngay!"
   users:
     new:
       title: "Đăng ký"
@@ -48,3 +62,8 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Mật khẩu xác nhận"
+  helpers:
+    label:
+      session:
+        email: "Email"
+        password: "Mật khẩu"
