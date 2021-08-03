@@ -46,6 +46,7 @@ en:
       new_user: "New User?"
       login: "Log in"
       sign_up: "Sign up now!"
+      remember_me: "Remember me on this computer"
   users:
     new:
       title: "Sign up"

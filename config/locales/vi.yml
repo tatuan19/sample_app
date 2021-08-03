@@ -46,6 +46,7 @@ vi:
       new_user: "Người dùng mới?"
       login: "Đăng nhập"
       sign_up: "Đăng ký ngay!"
+      remember_me: "Ghi nhớ đăng nhập"
   users:
     new:
       title: "Đăng ký"
