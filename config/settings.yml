@@ -3,6 +3,8 @@ rails_help_link: "https://www.railstutorial.org/help"
 rails_book_link: "https://www.railstutorial.org/book"
 rails_author_link: "https://www.michaelhartl.com/"
 rails_news_link: https://news.railstutorial.org/"
+gravatar_home_link: "https://gravatar.com/emails"
+
 name:
   length:
     max: 50
@@ -13,3 +15,14 @@ email:
 password:
   length:
     min: 6
+avatar:
+  size:
+    profile: 80
+    list: 50
+user:
+  admin:
+    name: "Tran Anh Tuan"
+    email: "tatuan19@gmail.com"
+    password: "123456"
+  faker:
+    password: "password"
