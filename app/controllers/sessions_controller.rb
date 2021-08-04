@@ -3,14 +3,17 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by email: params[:session][:email].downcase
+    valid_password = user&.authenticate params[:session][:password]
+    return login user if valid_password
 
-    if user&.authenticate params[:session][:password]
-      log_in user
-      redirect_to user
-    else
-      flash.now[:danger] = t "error.login_fail"
-      render :new
-    end
+    flash.now[:danger] = t "error.login_fail"
+    render :new
+  end
+
+  def login user
+    log_in user
+    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+    redirect_to user
   end
 
   def destroy
