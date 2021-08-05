@@ -2,10 +2,16 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   app_name: "Sample App"
   welcome_to_the_sample_app!: "Welcome to the Sample App"
+  success:
+    profile_updated: "Profile updated"
+    user_deleted: "User deleted"
   error:
     not_found: "User not found!"
     signup_fail: "Sign up failed. Please try again!"
     login_fail: "Invalid email/password combination"
+    deleted_failed: "Deleted fail!"
+    require_login: "Please log in!"
+    update_fail: "Update failed!"
   layouts:
     header:
       users: "Users"
@@ -48,10 +54,20 @@ en:
       sign_up: "Sign up now!"
       remember_me: "Remember me on this computer"
   users:
+    user:
+      confirm: "Are you sure?"
+      delete: "Delete"
+    index:
+      title: "All users"
     new:
       title: "Sign up"
       subtitle: "Sign up page for new users."
       create: "Create my account"
+    edit:
+      title: "Edit user"
+      subtitle: "Update your profile"
+      change: "Change"
+      save: "Save changes"
   shared:
     error_messages:
       info: "The form contains"
@@ -68,3 +84,10 @@ en:
       session:
         email: "Email"
         password: "Password"
+  views:
+    pagination:
+      first: "« First"
+      last: "Last »"
+      previous: "‹ Prev"
+      next: "Next ›"
+      truncate: "…"

@@ -2,10 +2,16 @@ vi:
   base_title: "Ruby on Rails Tutorial Sample App"
   app_name: "Sample App"
   welcome_to_the_sample_app!: "Chào mừng đến với Sample App"
+  success:
+    profile_updated: "Thông tin đã được cập nhật"
+    user_deleted: "Đã xóa người dùng"
   error:
     not_found: "Không tìm thấy người dùng!"
     signup_fail: "Đăng ký không thành công. Vui lòng thử lại!"
     login_fail: "Email hoặc mật khẩu không đúng!"
+    deleted_failed: "Xóa thất bại!"
+    require_login: "Vui lòng đăng nhập!"
+    update_fail: "Cập nhật thất bại!"
   layouts:
     header:
       users: "Người dùng"
@@ -48,10 +54,20 @@ vi:
       sign_up: "Đăng ký ngay!"
       remember_me: "Ghi nhớ đăng nhập"
   users:
+    user:
+      confirm: "Bạn muốn xóa người dùng này?"
+      delete: "Xóa"
+    index:
+      title: "Người dùng"
     new:
       title: "Đăng ký"
       subtitle: "Trang đăng ký cho người dùng mới."
       create: "Tạo tài khoản"
+    edit:
+      title: "Chỉnh sửa"
+      subtitle: "Cập nhật thông tin"
+      change: "Thay đổi"
+      save: "Lưu thay đổi"
   shared:
     error_messages:
       info: "Form đăng ký gặp"
@@ -68,3 +84,10 @@ vi:
       session:
         email: "Email"
         password: "Mật khẩu"
+  views:
+    pagination:
+      first: "« Đầu"
+      last: "Cuối »"
+      previous: "‹ Trước"
+      next: "Sau ›"
+      truncate: "…"
