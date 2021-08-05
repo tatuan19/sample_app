@@ -53,6 +53,8 @@ en:
       login: "Log in"
       sign_up: "Sign up now!"
       remember_me: "Remember me on this computer"
+    create:
+      required_activate_email: "Account not activated. Check your email for the activation link."
   users:
     user:
       confirm: "Are you sure?"
@@ -63,6 +65,8 @@ en:
       title: "Sign up"
       subtitle: "Sign up page for new users."
       create: "Create my account"
+    create:
+      check_email_to_activate: "Please check your email to activate your account."
     edit:
       title: "Edit user"
       subtitle: "Update your profile"
@@ -72,6 +76,16 @@ en:
     error_messages:
       info: "The form contains"
       error: "error"
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_activation: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      greeting: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      subject: "Account activation"
+      activate: "Activate"
   activerecord:
     attributes:
       user:

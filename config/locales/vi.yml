@@ -53,6 +53,8 @@ vi:
       login: "Đăng nhập"
       sign_up: "Đăng ký ngay!"
       remember_me: "Ghi nhớ đăng nhập"
+    create:
+      required_activate_email: "Tài khoản chưa được xác thực. Kiểm tra email của bạn để hoàn thành xác thực."
   users:
     user:
       confirm: "Bạn muốn xóa người dùng này?"
@@ -63,6 +65,8 @@ vi:
       title: "Đăng ký"
       subtitle: "Trang đăng ký cho người dùng mới."
       create: "Tạo tài khoản"
+    create:
+      check_email_to_activate: "Vui lòng kiểm tra email của bạn để xác thực tài khoản."
     edit:
       title: "Chỉnh sửa"
       subtitle: "Cập nhật thông tin"
@@ -72,6 +76,16 @@ vi:
     error_messages:
       info: "Form đăng ký gặp"
       error: "lỗi"
+  account_activations:
+    edit:
+      account_activated: "Tài khoản đã được xác thực!"
+      invalid_activation: "Tài khoản chưa được xác thực"
+  user_mailer:
+    account_activation:
+      greeting: "Chào"
+      welcome: "Chào mừng bạn đến với Sample App! Nhấn vào đường dẫn ở dưới để xác thực tài khoản:"
+      subject: "Xác thực tài khoản"
+      activate: "Xác thực"
   activerecord:
     attributes:
       user:
