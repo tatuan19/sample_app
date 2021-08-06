@@ -3,7 +3,9 @@ User.create!(name: Settings.user.admin.name,
              email: Settings.user.admin.email,
              password: Settings.user.admin.password,
              password_confirmation: Settings.user.admin.password,
-             admin: true)
+             admin: true,
+             activated: true,
+             activated_at: Time.zone.now)
 
 # Generate a bunch of additional users.
 99.times do |n|
@@ -12,5 +14,7 @@ User.create!(name: Settings.user.admin.name,
   User.create!(name: name,
                email: email,
                password: Settings.user.faker.password,
-               password_confirmation: Settings.user.faker.password)
+               password_confirmation: Settings.user.faker.password,
+               activated: true,
+               activated_at: Time.zone.now)
 end
