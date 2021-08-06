@@ -12,6 +12,7 @@ email:
   length:
     max: 50
   valid_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
+  pwd_reset_expired_hours: 2
 password:
   length:
     min: 6
