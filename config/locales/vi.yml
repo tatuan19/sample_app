@@ -7,6 +7,7 @@ vi:
     user_deleted: "Đã xóa người dùng"
   error:
     not_found: "Không tìm thấy người dùng!"
+    not_activated: "Tài khoản chưa được kích hoạt!"
     signup_fail: "Đăng ký không thành công. Vui lòng thử lại!"
     login_fail: "Email hoặc mật khẩu không đúng!"
     deleted_failed: "Xóa thất bại!"
@@ -53,8 +54,10 @@ vi:
       login: "Đăng nhập"
       sign_up: "Đăng ký ngay!"
       remember_me: "Ghi nhớ đăng nhập"
+      forgot_password: "Quên mật khẩu?"
     create:
-      required_activate_email: "Tài khoản chưa được xác thực. Kiểm tra email của bạn để hoàn thành xác thực."
+      required_activate_email: "Tài khoản chưa được xác thực.
+                                Kiểm tra email của bạn để hoàn thành xác thực."
   users:
     user:
       confirm: "Bạn muốn xóa người dùng này?"
@@ -66,7 +69,7 @@ vi:
       subtitle: "Trang đăng ký cho người dùng mới."
       create: "Tạo tài khoản"
     create:
-      check_email_to_activate: "Vui lòng kiểm tra email của bạn để xác thực tài khoản."
+      check_email_to_activate: "Vui lòng kiểm tra email để xác thực tài khoản."
     edit:
       title: "Chỉnh sửa"
       subtitle: "Cập nhật thông tin"
@@ -80,12 +83,36 @@ vi:
     edit:
       account_activated: "Tài khoản đã được xác thực!"
       invalid_activation: "Tài khoản chưa được xác thực"
+  password_resets:
+    reset_expired: "Thời hạn lấy lại mật khẩu đã hết."
+    new:
+      title: "Quên mật khẩu"
+      submit: "Xác nhận"
+    create:
+      email_sent: "Email đã được gửi kèm hướng dẫn đổi mật khẩu"
+      email_not_found: "Email không tồn tại"
+    update:
+      empty_password: "không thể để trống"
+      reset_password_success: "Mật khẩu đã được cập nhật."
+      reset_password_fail: "Đặt lại mật khẩu thất bại."
+    edit:
+      title: "Đổi mật khẩu"
+      submit: "Xác nhận"
   user_mailer:
     account_activation:
       greeting: "Chào"
-      welcome: "Chào mừng bạn đến với Sample App! Nhấn vào đường dẫn ở dưới để xác thực tài khoản:"
+      welcome: "Chào mừng bạn đến với Sample App!
+                Nhấn vào đường dẫn ở dưới để xác thực tài khoản:"
       subject: "Xác thực tài khoản"
       activate: "Xác thực"
+    password_reset:
+      title: "Đặt lại Mật khẩu"
+      subject: "Đặt lại Mật khẩu"
+      info: "Nhấn vào link bên dưới để đặt lại mật khẩu:"
+      expire: "Link này sẽ hết hạn sau 2 tiếng."
+      ignore: "Nếu bạn không yêu cầu thay đổi mật khẩu,
+               vui lòng bỏ qua email này và mật khẩu của bạn sẽ không thay đổi."
+      reset: "Đặt lại Mật khẩu"
   activerecord:
     attributes:
       user:
