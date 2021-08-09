@@ -13,6 +13,7 @@ vi:
     deleted_failed: "Xóa thất bại!"
     require_login: "Vui lòng đăng nhập!"
     update_fail: "Cập nhật thất bại!"
+    micropost_invalid: "Micropost không hợp lệ"
   layouts:
     header:
       users: "Người dùng"
@@ -33,6 +34,7 @@ vi:
       other_text: ""
       tutorial: "Ruby on Rails Tutorial"
       sign_up: "Đăng ký ngay!"
+      feed: "Micropost Feed"
     help:
       title: "Trợ giúp"
       subtitle: "Nhận trợ giúp về Ruby on Rails Tutorial tại trang"
@@ -70,6 +72,8 @@ vi:
       create: "Tạo tài khoản"
     create:
       check_email_to_activate: "Vui lòng kiểm tra email để xác thực tài khoản."
+    show:
+      microposts: "Microposts"
     edit:
       title: "Chỉnh sửa"
       subtitle: "Cập nhật thông tin"
@@ -79,6 +83,13 @@ vi:
     error_messages:
       info: "Form đăng ký gặp"
       error: "lỗi"
+    user_info:
+      view_profile: "Xem hồ sơ của tôi"
+      micropost: "micropost"
+    micropost_form:
+      compose_new: "Soạn micropost mới ..."
+      post: "Đăng"
+      max_size_alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."
   account_activations:
     edit:
       account_activated: "Tài khoản đã được xác thực!"
@@ -98,6 +109,18 @@ vi:
     edit:
       title: "Đổi mật khẩu"
       submit: "Xác nhận"
+  microposts:
+    create:
+      success: "Đã tạo micropost!"
+      fail: "Không thể tạo Micropost"
+    destroy:
+      success: "Micropost đã bị xóa"
+      fail: "Xóa không thành công"
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước."
+      delete: "Xóa"
+      delete_confirm: "Bạn có chắc không?"
   user_mailer:
     account_activation:
       greeting: "Chào"
@@ -120,6 +143,16 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Mật khẩu xác nhận"
+      micropost:
+        image: "Hình ảnh"
+        content: "Nội dung"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "phải là định dạng hình ảnh hợp lệ"
+              required_size: "phải nhỏ hơn 5MB"
   helpers:
     label:
       session:

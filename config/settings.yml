@@ -27,3 +27,14 @@ user:
     password: "123456"
   faker:
     password: "password"
+micropost:
+  length:
+    max: 140
+  avatar:
+    size: 50
+  image:
+    resize: [500, 500]
+image:
+  max_size: 5
+  type: ["image/jpeg", "image/gif", "image/png"]
+  type_accepted: "image/jpeg,image/gif,image/png"
