@@ -79,6 +79,19 @@ en:
       subtitle: "Update your profile"
       change: "Change"
       save: "Save changes"
+    show_follow:
+      micoposts: "Microposts:"
+      view_profile: "view my profile"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+  followings:
+    index:
+      following: "Following"
+  followers:
+    index:
+      follower: "Follower"
   shared:
     error_messages:
       info: "The form contains"
@@ -90,6 +103,9 @@ en:
       compose_new: "Compose new micropost..."
       post: "Post"
       max_size_alert: "Maximum file size is 5MB. Please choose a smaller file."
+    stats:
+      following: "following"
+      follower: "follower"
   account_activations:
     edit:
       account_activated: "Account activated!"

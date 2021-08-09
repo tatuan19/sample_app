@@ -79,6 +79,19 @@ vi:
       subtitle: "Cập nhật thông tin"
       change: "Thay đổi"
       save: "Lưu thay đổi"
+    show_follow:
+      micoposts: "Các bài đăng:"
+      view_profile: "xem trang cá nhân"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+  followings:
+    index:
+      following: "Đang theo dõi"
+  followers:
+    index:
+      follower: "Người theo dõi"
   shared:
     error_messages:
       info: "Form đăng ký gặp"
@@ -90,6 +103,9 @@ vi:
       compose_new: "Soạn micropost mới ..."
       post: "Đăng"
       max_size_alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."
+    stats:
+      following: "đang theo dõi"
+      follower: "người theo dõi"
   account_activations:
     edit:
       account_activated: "Tài khoản đã được xác thực!"
