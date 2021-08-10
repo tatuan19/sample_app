@@ -20,6 +20,7 @@ avatar:
   size:
     profile: 80
     list: 50
+    follower: 30
 user:
   admin:
     name: "Tran Anh Tuan"
