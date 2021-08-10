@@ -13,6 +13,7 @@ en:
     deleted_failed: "Deleted fail!"
     require_login: "Please log in!"
     update_fail: "Update failed!"
+    micropost_invalid: "Micropost invalid"
   layouts:
     header:
       users: "Users"
@@ -33,6 +34,7 @@ en:
       other_text: "sample application"
       tutorial: "Ruby on Rails Tutorial"
       sign_up: "Sign up now!"
+      feed: "Micropost Feed"
     help:
       title: "Help"
       subtitle: "Get help on the Ruby on Rails Tutorial at the"
@@ -70,6 +72,8 @@ en:
       create: "Create my account"
     create:
       check_email_to_activate: "Please check email to activate your account."
+    show:
+      microposts: "Microposts"
     edit:
       title: "Edit user"
       subtitle: "Update your profile"
@@ -79,6 +83,13 @@ en:
     error_messages:
       info: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "View my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose_new: "Compose new micropost..."
+      post: "Post"
+      max_size_alert: "Maximum file size is 5MB. Please choose a smaller file."
   account_activations:
     edit:
       account_activated: "Account activated!"
@@ -98,6 +109,18 @@ en:
     edit:
       title: "Reset Password"
       submit: "Reset"
+  microposts:
+    create:
+      success: "Micropost created!"
+      fail: "Failed to create Micropost"
+    destroy:
+      success: "Micropost deleted"
+      fail: "Deleted fail"
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "Delete"
+      delete_confirm: "Are you sure?"
   user_mailer:
     account_activation:
       greeting: "Hi"
@@ -120,6 +143,16 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirm password"
+      micropost:
+        image: "Image"
+        content: "Content"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "must be a valid image format"
+              required_size: "should be less than 5MB"
   helpers:
     label:
       session:
