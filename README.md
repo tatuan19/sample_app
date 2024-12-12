@@ -1,3 +1,6 @@
+Lorem ipsum ... Sorry, I remember now
+Lorem ipsum ... Sorry, I will remember soon
+
 # Ruby on Rails Tutorial sample application
 
 This is the sample application for
