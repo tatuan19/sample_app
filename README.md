@@ -1,4 +1,4 @@
-Lorem ipsum ... Sorry, I don't remember
+Lorem ipsum ... Sorry, I remember now
 
 # Ruby on Rails Tutorial sample application
 
