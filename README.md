@@ -1,3 +1,5 @@
+Lorem ipsum ... Sorry, I don't remember
+
 # Ruby on Rails Tutorial sample application
 
 This is the sample application for
